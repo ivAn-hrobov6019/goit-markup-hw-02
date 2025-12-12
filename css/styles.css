@@ -1,0 +1,200 @@
+body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  background: #fff;
+}
+
+
+
+/* ====== HEADER ====== */
+.logo {
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #111;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+}
+
+
+.logo .accent {
+  color: #4d5ae5;
+}
+
+.header-nav {
+}
+
+.list-item {
+}
+
+.header-nav .link-nav {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.header-nav .link-nav:hover {
+color: #404bbf;
+}
+
+
+.header-contacts .link-address {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  font-style: normal;
+  font-size: 16px;
+
+}
+
+.header-contacts .link-address:hover {
+  color: #404bbf;
+}
+
+.contacts-item {
+}
+
+.ef-sol-btn {
+  cursor: pointer;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background: #4d5ae5;
+}
+
+.ef-sol-btn:hover{ 
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background: #404bbf;
+}
+/* ====== EFFECTIVE SOLUTION ====== */
+.ef-sol {
+  background-color: #2e2f42;
+}
+.ef-sol-title {
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+  font-size: 56px;
+}
+
+.ef-sol-btn {
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  font-size: 16px;
+}
+/* ====== OUR FUTURES ====== */
+
+.list-item {
+}
+
+.section-item {
+}
+
+.section-subtitle {
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  
+}
+
+.capcion-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  font-size: 16px;
+  
+}
+
+/* ====== OUR TEAM ====== */
+.our-team {
+  background: #f4f4fd;
+}
+.section-title {
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  font-size: 36px;
+}
+.list-item {
+}
+
+.section-item {
+}
+
+.team-img {
+  height="260"
+}
+
+.section-subtitle-team {
+  line-height: 1.2;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+}
+
+.capcion-text-team {
+  line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: center;
+color: #434455;
+}
+
+/* ====== OUR PORTFOLIO ====== */
+
+.section-item {
+}
+
+.portfolio-img {
+   
+}
+
+.section-subtitle-portfolio {
+  line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+font-weight: 500;
+}
+
+.capcion-text-portfolio {
+  line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+
+}
+
+/* ====== FOOTER ====== */
+.footer {
+  background-color: #2e2f42;;
+}
+
+.footer .capcion-text {
+  line-height: 1.5;
+letter-spacing: 0.02em;
+color: #f4f4fd;
+font-size: 16px;
+}
+
+.footer .logo {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #f4f4fd;
+font-size: 18px;
+}
