@@ -15,8 +15,6 @@ header {
   background: #fff;
 }
 
-
-
 /* ====== HEADER ====== */
 .logo {
   line-height: 1.17;
@@ -26,7 +24,6 @@ header {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
 }
-
 
 .logo .accent {
   color: #4d5ae5;
@@ -47,9 +44,8 @@ header {
 }
 
 .header-nav .link-nav:hover {
-color: #404bbf;
+  color: #404bbf;
 }
-
 
 .header-contacts .link-address {
   line-height: 1.5;
@@ -57,7 +53,6 @@ color: #404bbf;
   color: #434455;
   font-style: normal;
   font-size: 16px;
-
 }
 
 .header-contacts .link-address:hover {
@@ -70,12 +65,12 @@ color: #404bbf;
 .ef-sol-btn {
   cursor: pointer;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-background: #4d5ae5;
+  background: #4d5ae5;
 }
 
-.ef-sol-btn:hover{ 
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-background: #404bbf;
+.ef-sol-btn:hover {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #404bbf;
 }
 /* ====== EFFECTIVE SOLUTION ====== */
 .ef-sol {
@@ -109,7 +104,6 @@ background: #404bbf;
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  
 }
 
 .capcion-text {
@@ -117,7 +111,6 @@ background: #404bbf;
   letter-spacing: 0.02em;
   color: #434455;
   font-size: 16px;
-  
 }
 
 /* ====== OUR TEAM ====== */
@@ -138,21 +131,21 @@ background: #404bbf;
 }
 
 .team-img {
-  height="260"
+  height: "260";
 }
 
 .section-subtitle-team {
   line-height: 1.2;
-letter-spacing: 0.02em;
-text-align: center;
-color: #2e2f42;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
 }
 
 .capcion-text-team {
   line-height: 1.5;
-letter-spacing: 0.02em;
-text-align: center;
-color: #434455;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
 }
 
 /* ====== OUR PORTFOLIO ====== */
@@ -161,40 +154,38 @@ color: #434455;
 }
 
 .portfolio-img {
-   
 }
 
 .section-subtitle-portfolio {
   line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2e2f42;
-font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  font-weight: 500;
 }
 
 .capcion-text-portfolio {
   line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
-
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /* ====== FOOTER ====== */
 .footer {
-  background-color: #2e2f42;;
+  background-color: #2e2f42;
 }
 
 .footer .capcion-text {
   line-height: 1.5;
-letter-spacing: 0.02em;
-color: #f4f4fd;
-font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  font-size: 16px;
 }
 
 .footer .logo {
   font-family: "Raleway", sans-serif;
   line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #f4f4fd;
-font-size: 18px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+  font-size: 18px;
 }
