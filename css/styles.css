@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  color: #fff;
+  color: #434455;
 }
 
 a {
@@ -20,7 +20,7 @@ header {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #111;
+  color: #2e2f42;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
 }
@@ -43,7 +43,8 @@ header {
   font-weight: 500;
 }
 
-.header-nav .link-nav:hover {
+.header-nav .link-nav:hover,
+.header-nav .link-nav:focus {
   color: #404bbf;
 }
 
@@ -55,23 +56,14 @@ header {
   font-size: 16px;
 }
 
-.header-contacts .link-address:hover {
+.header-contacts .link-address:hover,
+.header-contacts .link-address:focus {
   color: #404bbf;
 }
 
 .contacts-item {
 }
 
-.ef-sol-btn {
-  cursor: pointer;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #4d5ae5;
-}
-
-.ef-sol-btn:hover {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #404bbf;
-}
 /* ====== EFFECTIVE SOLUTION ====== */
 .ef-sol {
   background-color: #2e2f42;
@@ -89,6 +81,19 @@ header {
   letter-spacing: 0.04em;
   color: #fff;
   font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+}
+
+.ef-sol-btn:hover {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #404bbf;
+}
+
+.ef-sol-btn:focus {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #404bbf;
 }
 /* ====== OUR FUTURES ====== */
 
@@ -106,7 +111,7 @@ header {
   font-weight: 500;
 }
 
-.capcion-text {
+.caption-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
@@ -127,11 +132,11 @@ header {
 .list-item {
 }
 
-.section-item {
+.section-item-team {
+  background-color: #fff;
 }
 
 .team-img {
-  height: "260";
 }
 
 .section-subtitle-team {
@@ -141,7 +146,7 @@ header {
   color: #2e2f42;
 }
 
-.capcion-text-team {
+.caption-text-team {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
@@ -163,7 +168,7 @@ header {
   font-weight: 500;
 }
 
-.capcion-text-portfolio {
+.caption-text-portfolio {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
@@ -174,7 +179,7 @@ header {
   background-color: #2e2f42;
 }
 
-.footer .capcion-text {
+.footer .caption-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
